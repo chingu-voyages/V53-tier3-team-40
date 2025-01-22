@@ -1,0 +1,68 @@
+const animals = [
+  {
+    _id: "1",
+    name: "Bella",
+    animalType: "cat",
+    age: 1,
+    gender: "female",
+    image: "/images/1.jpeg",
+  },
+  {
+    _id: "2",
+    name: "Buddy",
+    animalType: "dog",
+    age: 1,
+    gender: "male",
+    image: "/images/2.jpeg",
+  },
+  {
+    _id: "3",
+    name: "Leo",
+    animalType: "cat",
+    age: 1,
+    gender: "male",
+    image: "/images/3.jpeg",
+  },
+  {
+    _id: "4",
+    name: "Snowy",
+    animalType: "dog",
+    age: 1,
+    gender: "female",
+    image: "/images/4.jpeg",
+  },
+  {
+    _id: "5",
+    name: "Oliver",
+    animalType: "dog",
+    age: 2,
+    gender: "male",
+    image: "/images/5.jpeg",
+  },
+  {
+    _id: "6",
+    name: "Teddy",
+    animalType: "cat",
+    age: 4,
+    gender: "male",
+    image: "/images/6.jpeg",
+  },
+  {
+    _id: "7",
+    name: "Sunny",
+    animalType: "hamster",
+    age: 1,
+    gender: "male",
+    image: "/images/7.jpeg",
+  },
+  {
+    _id: "8",
+    name: "Daisy",
+    animalType: "hamster",
+    age: 2,
+    gender: "female",
+    image: "/images/8.jpeg",
+  },
+];
+
+export default animals;
