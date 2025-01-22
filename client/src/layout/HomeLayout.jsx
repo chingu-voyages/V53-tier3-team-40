@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import Component1 from "../components/Component1";
+import Animals from "../components/Animals";
 import Component2 from "../components/Component2";
 import Footer from "../components/Footer";
 
@@ -12,7 +12,7 @@ const HomeLayout = () => {
       <main className="w-full">
         <div className="w-full px-6 py-8 space-y-4">
           <div className="flex justify-center w-full">
-            <Component1 />
+            <Animals />
           </div>
           <div className="flex justify-center w-full">
             <Component2 />

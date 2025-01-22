@@ -1,3 +1,12 @@
+import image1 from './images/1.jpg'
+import image2 from './images/2.jpg'
+import image3 from './images/3.jpg'
+import image4 from './images/4.jpg'
+import image5 from './images/5.jpg'
+import image6 from './images/6.jpg'
+import image7 from './images/7.jpg'
+import image8 from './images/8.jpg'
+
 const animals = [
   {
     _id: "1",
@@ -5,7 +14,7 @@ const animals = [
     animalType: "cat",
     age: 1,
     gender: "female",
-    image: "/images/1.jpeg",
+    image: image1,
   },
   {
     _id: "2",
@@ -13,7 +22,7 @@ const animals = [
     animalType: "dog",
     age: 1,
     gender: "male",
-    image: "/images/2.jpeg",
+    image: image2,
   },
   {
     _id: "3",
@@ -21,7 +30,7 @@ const animals = [
     animalType: "cat",
     age: 1,
     gender: "male",
-    image: "/images/3.jpeg",
+    image: image3,
   },
   {
     _id: "4",
@@ -29,7 +38,7 @@ const animals = [
     animalType: "dog",
     age: 1,
     gender: "female",
-    image: "/images/4.jpeg",
+    image: image4,
   },
   {
     _id: "5",
@@ -37,7 +46,7 @@ const animals = [
     animalType: "dog",
     age: 2,
     gender: "male",
-    image: "/images/5.jpeg",
+    image: image5,
   },
   {
     _id: "6",
@@ -45,7 +54,7 @@ const animals = [
     animalType: "cat",
     age: 4,
     gender: "male",
-    image: "/images/6.jpeg",
+    image: image6,
   },
   {
     _id: "7",
@@ -53,7 +62,7 @@ const animals = [
     animalType: "hamster",
     age: 1,
     gender: "male",
-    image: "/images/7.jpeg",
+    image: image7,
   },
   {
     _id: "8",
@@ -61,7 +70,7 @@ const animals = [
     animalType: "hamster",
     age: 2,
     gender: "female",
-    image: "/images/8.jpeg",
+    image: image8,
   },
 ];
 
