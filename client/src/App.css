@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+/* .custom-swiper .swiper-button-prev,
+.custom-swiper .swiper-button-next {
+  color: black;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: black;
+}
+
+.custom-swiper .swiper-button-next {
+  left: 0;
+  right: auto;
+  transform: translateX(-50%);
+}
+
+.header:before {
+  content: '';
+  position: absolute;
+  right: 1cm;
+  background-color: #daebd3;
+  z-index: 1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+} */
