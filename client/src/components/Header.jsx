@@ -1,7 +1,5 @@
 import React from "react";
-import dog from "../assets/header/dog.png";
-import cat from "../assets/header/cat.png";
-import hamster from "../assets/header/hamster.png";
+import animals from "../assets/header/animals";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,15 +22,11 @@ const Header = () => {
           loop
           className="h-full custom-swiper"
         >
-          <SwiperSlide>
-            <img src={cat} alt="cat" className="object-fill w-fit h-full"/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={dog} alt="dog" className="object-fill w-fit h-full"/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={hamster} alt="dog" className="object-fill w-fit h-full"/>
-          </SwiperSlide>
+          {animals.map((animal) => (
+            <SwiperSlide key={animal._id}>
+              <img src={animal.image} alt={animal.name} className="object-fill w-fit h-full" />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </header>
