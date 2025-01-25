@@ -16,7 +16,7 @@ const Header = () => {
       <div className="w-1/2 h-full">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          navigation
+          // navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 4000 }}
           loop
