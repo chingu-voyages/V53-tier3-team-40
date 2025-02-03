@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Menu from "./Menu";
-// import logo from "../assets/logo.png";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
 
@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className={`navbar bg-base-100 px-6 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
       <div className="flex-1">
-        <button className="btn btn-ghost text-xl">daisyUI</button>
+        <img src={logo} alt="logo" className="w-48 h-18" />
         <Menu />
       </div>
       <div className="flex-none">
