@@ -5,8 +5,8 @@ import Footer from "../components/Footer";
 
 const HomeLayout = () => {
   return (
-    <div className="flex flex-col w-full">
-      <section className="h-[70vh] w-full">
+    <div className="flex flex-col w-full bg-white">
+      <section className="w-full">
         <Header />
       </section>
       <main className="w-full">

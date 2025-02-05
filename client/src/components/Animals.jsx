@@ -44,7 +44,7 @@ const Animals = () => {
       <div className="flex justify-center mt-6">
         {page < animals.length && (
           <button
-            className="font-bold border border-gray-200 bg-gray-100 text-gray-700 py-3 px-12 rounded-xl shadow-md hover:border-gray-300 hover:cursor-pointer focus:outline-none"
+            className="font-bold border border-gray-100 bg-gray-100 text-gray-700 py-3 px-12 rounded-xl shadow-md hover:border-gray-200 hover:cursor-pointer focus:outline-none"
             onClick={handleLoadMore}
           >
             Load More
