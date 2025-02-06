@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Component2 from "../components/Component2";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
+
 const HelpAnimalsLayout = () => {
   return (
     <div className="flex flex-col w-full bg-white dark:bg-gray-900">
