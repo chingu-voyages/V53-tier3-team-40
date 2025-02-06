@@ -6,11 +6,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Menu from "./Menu";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <div className="">
       <div className="top-0 left-0 h-[10vh]">
+        <img src={logo} alt="logo" className="absolute w-56 h-26 top-[-17px] left-8 z-40" />
         <Menu className="absolute top-4 right-4 z-40" />
       </div>
 

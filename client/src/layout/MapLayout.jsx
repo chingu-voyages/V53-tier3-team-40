@@ -1,11 +1,9 @@
 import Header from "../components/Header";
 import Component2 from "../components/Component2";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 const MapLayout = () => {
   return (
     <div className="flex flex-col w-full">
-      <Navbar />
       <section className="h-[70vh] w-full">
         <Header />
       </section>

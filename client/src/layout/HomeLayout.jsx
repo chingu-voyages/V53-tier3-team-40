@@ -2,7 +2,6 @@ import Header from "../components/Header";
 import Animals from "../components/Animals";
 import Component2 from "../components/Component2";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 const HomeLayout = () => {
   return (
     <div className="flex flex-col w-full bg-white">
