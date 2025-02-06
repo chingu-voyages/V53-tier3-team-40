@@ -3,7 +3,7 @@ import Component2 from "../components/Component2";
 import Footer from "../components/Footer";
 const MapLayout = () => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full bg-white dark:bg-gray-900">
       <section className="h-[70vh] w-full">
         <Header />
       </section>
