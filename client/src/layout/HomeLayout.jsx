@@ -5,9 +5,8 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 const HomeLayout = () => {
   return (
-    <div className="flex flex-col w-full">
-      <Navbar />
-      <section className="h-[70vh] w-full">
+    <div className="flex flex-col w-full bg-white">
+      <section className="w-full">
         <Header />
       </section>
       <main className="w-full">
