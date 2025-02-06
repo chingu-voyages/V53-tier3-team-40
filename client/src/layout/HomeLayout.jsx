@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 
 const HomeLayout = () => {
   return (
-    <div className="flex flex-col w-full bg-white">
+    <div className="flex flex-col w-full bg-white dark:bg-gray-900">
       <section className="w-full">
         <Header />
       </section>
