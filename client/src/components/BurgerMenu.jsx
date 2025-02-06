@@ -1,6 +1,6 @@
 export default function BurgerMenu({ isOpen }) {
   return (
-    <div className="group flex h-20 w-20 cursor-pointer items-center justify-center">
+    <div className="group flex h-14 w-20 cursor-pointer items-center justify-center">
       <div className="space-y-2">
         <span
           className={`${
