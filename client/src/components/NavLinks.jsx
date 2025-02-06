@@ -4,7 +4,7 @@ export default function NavLinks() {
   const linkStyle = ({ isActive }) =>
     `font-medium ${
       isActive ? "text-blue-500" : "text-gray-900"
-    } whitespace-nowrap hover:text-blue-400 mx-4 border border-white rounded-full px-6 py-2`;
+    } whitespace-nowrap hover:text-blue-400 mx-4 border border-white rounded-full px-5 py-2`;
 
   return (
     <>
