@@ -8,13 +8,20 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Menu from "./Menu";
 import logo from "../assets/logo.png";
 import ThemeSwitch from "./ThemeSwitch";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   
   return (
     <div className="">
       <div className="top-0 left-0 h-[10vh]">
-        <img src={logo} alt="logo" className="absolute w-56 h-26 top-[-17px] left-8 z-40" />
+        <Link to="/">
+          <img 
+            src={logo} 
+            alt="logo" 
+            className="absolute w-56 h-26 top-[-17px] left-8 z-40" 
+          />
+        </Link>
         <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2">
           <Menu className="absolute top-4 right-20 z-40" />
           <ThemeSwitch />
