@@ -6,19 +6,26 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Menu from "./Menu";
+import logo from "../assets/logo.png";
+import ThemeSwitch from "./ThemeSwitch";
 
 const Header = () => {
+  
   return (
     <div className="">
       <div className="top-0 left-0 h-[10vh]">
-        <Menu className="absolute top-4 right-4 z-40" />
+        <img src={logo} alt="logo" className="absolute w-56 h-26 top-[-17px] left-8 z-40" />
+        <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2">
+          <Menu className="absolute top-4 right-20 z-40" />
+          <ThemeSwitch />
+        </div>
       </div>
 
-      <header className="header w-full h-[600px] bg-green-200 text-black flex flex-col md:flex-row items-center justify-center overflow-hidden relative">
-        <div className="absolute top-0 left-0 h-full w-[50%] bg-green-100 z-0 md:-mr-4"></div>
-        <div className="absolute top-0 right-0 h-full w-[46%] bg-[#86e0a0] z-0 md:-mr-4"></div>
+      <header className="header w-full h-[600px] bg-green-200 dark:bg-emerald-400 text-black flex flex-col md:flex-row items-center justify-center overflow-hidden relative">
+        <div className="absolute top-0 left-0 h-full w-[50%] bg-green-100 dark:bg-emerald-300 z-0 md:-mr-4"></div>
+        <div className="absolute top-0 right-0 h-full w-[46%] bg-[#86e0a0] dark:bg-[#17bf76] z-0 md:-mr-4"></div>
 
-        <div className="header-content w-full h-full flex flex-col justify-center items-center md:text-left text-center space-y-4 z-10 ps-[10%] pt-[6%]">
+        <div className="header-content w-full h-full flex flex-col justify-center items-center md:text-left text-center space-y-4 z-10 ps-[10%] pt-[6%] dark:text-white">
           <h1 className="text-[min(8vw,6rem)] font-bold text-center md:text-left lg:text-left mb-1 ">
             Find Your Favorite
             <br />

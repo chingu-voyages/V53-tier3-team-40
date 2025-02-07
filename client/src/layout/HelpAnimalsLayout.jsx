@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 
 const HelpAnimalsLayout = () => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full bg-white dark:bg-gray-900">
       <section className="h-[70vh] w-full">
         <Header />
       </section>
