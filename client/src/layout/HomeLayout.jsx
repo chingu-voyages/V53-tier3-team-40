@@ -3,6 +3,7 @@ import Animals from "../components/Animals";
 import Component2 from "../components/Component2";
 import Footer from "../components/Footer/Footer";
 import Problem from "../components/Problem";
+import Problem2 from "../components/Problem2";
 
 const HomeLayout = () => {
   return (
@@ -14,6 +15,9 @@ const HomeLayout = () => {
         <div className="w-full px-6 py-8 space-y-4">
           <div className="flex justify-center w-full">
             <Problem />
+          </div>
+          <div className="flex justify-center w-full">
+            <Problem2 />
           </div>
           <div className="flex justify-center w-full">
             <Animals />
