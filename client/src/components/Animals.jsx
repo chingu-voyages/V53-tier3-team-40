@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import animals from '../assets/dummydata/animals';
+import { useState } from "react";
+import animals from "../assets/dummydata/animals";
 
 const Animals = () => {
   const [page, setPage] = useState(8);
@@ -9,8 +9,8 @@ const Animals = () => {
   };
 
   return (
-    <div className="w-full max-w-7xl px-4 py-6 bg-gray-200 rounded-3xl shadow-lg">
-      <h2 className="text-xl text-center text-gray-800 font-semibold mb-6">
+    <div className="w-full max-w-7xl px-4 py-6">
+      <h2 className="text-xl text-center text-black dark:text-white font-semibold mb-6">
         Our Animals
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -34,7 +34,7 @@ const Animals = () => {
                 <p className="capitalize">{animal.animalType}</p>
                 <p>
                   {animal.gender}, {animal.age} year
-                  {animal.age !== 1 ? 's' : ''} old
+                  {animal.age !== 1 ? "s" : ""} old
                 </p>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Animals = () => {
       <div className="flex justify-center mt-6">
         {page < animals.length && (
           <button
-            className="font-bold border border-gray-300 bg-white text-gray-700 py-3 px-12 rounded-xl shadow-md hover:border-gray-500 hover:cursor-pointer focus:outline-none"
+            className="font-bold border border-gray-100 bg-gray-100 text-gray-700 py-3 px-12 rounded-xl shadow-md hover:border-gray-200 hover:cursor-pointer focus:outline-none"
             onClick={handleLoadMore}
           >
             Load More
