@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
+    "dotenv": "^16.4.7",
     "nodemon": "^3.1.9"
   }
 }
