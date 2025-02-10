@@ -1,0 +1,15 @@
+{
+  "name": "v53-tier3-team-40",
+  "version": "1.0.0",
+  "description": "The Animal Shelter App",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "v53-tier3-team-40",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
