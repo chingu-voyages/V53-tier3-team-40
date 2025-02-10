@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Animals from "../components/Animals";
 import Component2 from "../components/Component2";
 import Footer from "../components/Footer/Footer";
-import { Problem } from "../components/Problem";
+import Problem from "../components/Problem";
 
 const HomeLayout = () => {
   return (
