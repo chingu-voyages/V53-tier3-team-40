@@ -26,4 +26,4 @@ The Animal Shelter App is part of a shared project created by Team 40 for Voyage
 - Deepali Sangole: [GitHub](https://github.com/ss-deep) / [LinkedIn](https://www.linkedin.com/in/deepali-sangole-49b0841b/)
 - Rika Miyata: [GitHub](https://github.com/Tayrika) / [LinkedIn](https://www.linkedin.com/in/rika-miyata-4bab99243/)
 - - Rigo L: [GitHub](https://github.com/r1g023) / [LinkedIn](https://www.linkedin.com/in/rigo0101/)
-- Teammate name #6: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
+- Jorge Alvarado: [GitHub](https://github.com/alvarado08) / [LinkedIn](https://linkedin.com/in/jorgep-alvarado)
