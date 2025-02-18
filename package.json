@@ -8,7 +8,9 @@
     "start": "node server/server.js",
     "server": "nodemon server/server.js",
     "client": "npm run dev --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node server/seeder.js",
+    "data:destroy": "node server/seeder.js -d"
   },
   "author": "v53-tier3-team-40",
   "license": "MIT",
