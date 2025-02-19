@@ -19,9 +19,9 @@ const HomeLayout = () => {
           <div className="flex justify-center w-full">
             <Animals />
           </div>
-          <div className="flex justify-center w-full">
+          {/* <div className="flex justify-center w-full">
             <Component2 />
-          </div>
+          </div> */}
         </div>
       </main>
       <div className="w-full h-[40vh]">
