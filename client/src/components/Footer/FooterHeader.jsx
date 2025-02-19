@@ -5,10 +5,10 @@ function FooterHeader() {
      justify-between
      w-full px-10">
       <div className="flex flex-col text-xl">
-        <span className="text-5xl font-bold text-teal-400 dark:text-footerBackgroundColor">
+        <span className="text-5xl font-bold text-emerald-400">
           Lets
         </span>
-        <span className="text-5xl font-bold text-teal-400 pl-7">Connect</span>
+        <span className="text-5xl font-bold text-emerald-400 pl-7">Connect</span>
       </div>
     </div>
   );

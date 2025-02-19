@@ -10,9 +10,9 @@ const HelpAnimalsLayout = () => {
       </section>
       <main className="w-full">
         <div className="w-full px-6 py-8 space-y-4">
-          <div className="flex justify-center w-full">
+          {/* <div className="flex justify-center w-full">
             <Component2 />
-          </div>
+          </div> */}
         </div>
       </main>
       <div className="w-full h-[40vh]">
