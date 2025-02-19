@@ -2,6 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "proxy": "http://localhost:5000",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.474.0",
     "postcss": "^8.5.1",
